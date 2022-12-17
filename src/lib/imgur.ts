@@ -9,19 +9,22 @@ function get_random_imgur_link() {
 	return result + '.png';
 }
 
-let is_redirect = false;
+let is_redirect = true;
 
 async function check_if_redirect(file: string) {
-	const myObject = await fetch(file);
-	is_redirect = myObject.redirected;
+	const { redirected } = await fetch(file);
+	is_redirect = redirected;
 }
 
-export async function display_random_imgur_image() {
+export async function display_random_imgur_image(): Promise<{
+	the_link: string;
+	is_redirect: boolean;
+}> {
 	const the_link = get_random_imgur_link();
 	await check_if_redirect(the_link);
-	if (is_redirect && !the_link) {
-		display_random_imgur_image();
+	if (is_redirect) {
+		return display_random_imgur_image();
 	} else {
-		return the_link;
+		return { the_link, is_redirect };
 	}
 }
