@@ -37,15 +37,17 @@
 		<div>
 			<div class="text-white flex flex-col h-full justify-center">
 				<div>
-					<h1 class="text-3xl font-bold head">Hi, I&apos;m Pat</h1>
+					<h1 class="text-3xl font-bold head">
+						Hi, I&apos;m <span class="text-niceorange">Pat</span>
+					</h1>
 					<hr />
 					<h2 class="content font-bold text-xl">I'm ...</h2>
 					<ul class="content text-xl">
-						<li>- {age} years old</li>
-						<li>- from Thailand</li>
-						<li>- a full-stack developer</li>
-						<li>- a 3D modeler?</li>
-						<li>- an absolute gamer</li>
+						<li>- <span class="text-nicered">{age}</span> years old</li>
+						<li>- from <span class="text-nicepurple">Thailand</span></li>
+						<li>- a <span class="text-niceblue">full-stack developer</span></li>
+						<li>- a <span class="text-nicelightblue">3D modeler?</span></li>
+						<li>- an <span class="text-nicegreen">absolute gamer</span></li>
 					</ul>
 				</div>
 			</div>
