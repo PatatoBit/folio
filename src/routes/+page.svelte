@@ -41,7 +41,7 @@
 						Hi, I&apos;m <span class="text-niceorange">Pat</span>
 					</h1>
 					<hr />
-					<h2 class="content font-bold text-xl">I'm ...</h2>
+					<h2 class="content font-bold text-xl mt-3">I'm ...</h2>
 					<ul class="content text-xl">
 						<li>- <span class="text-nicered">{age}</span> years old</li>
 						<li>- from <span class="text-nicepurple">Thailand</span></li>
