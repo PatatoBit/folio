@@ -1,6 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 bodu {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+.section {
+	background: rgb(31, 31, 31);
+	background: linear-gradient(
+		180deg,
+		rgba(31, 31, 31, 1) 0%,
+		rgba(31, 31, 31, 1) 50%,
+		rgba(29, 36, 41, 1) 100%
+	);
+	@apply w-full h-screen flex md:flex-row flex-col text-white -z-50;
 }
