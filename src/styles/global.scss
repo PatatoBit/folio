@@ -13,9 +13,10 @@ bodu {
 	background: rgb(31, 31, 31);
 	background: linear-gradient(
 		180deg,
-		rgba(31, 31, 31, 1) 0%,
+		rgb(15, 15, 15) 0%,
 		rgba(31, 31, 31, 1) 50%,
-		rgba(29, 36, 41, 1) 100%
+		rgb(35, 43, 54) 100%
 	);
-	@apply w-full h-screen flex flex-col text-white -z-50;
+
+	@apply fixed w-full h-screen flex flex-col items-center justify-center bg-slate-800;
 }

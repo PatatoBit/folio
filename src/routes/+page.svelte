@@ -29,7 +29,7 @@
 	<meta property="og:image" content="/bing.png" />
 </svelte:head>
 
-<main class="w-full h-screen flex flex-col items-center justify-center bg-slate-800">
+<main class="section">
 	<div class="max-w-5xl flex md:flex-row flex-col md:gap-16 gap-8">
 		<div>
 			<Computer />
@@ -38,7 +38,7 @@
 			<div class="text-white flex flex-col h-full justify-center">
 				<div>
 					<h1 class="text-3xl font-bold head">
-						Hi, I&apos;m <span class="text-niceorange">Pat</span>
+						👋 Hi, I&apos;m <span class="text-niceorange">Pat</span>
 					</h1>
 					<hr />
 					<h2 class="content font-bold text-xl mt-3">I'm ...</h2>
