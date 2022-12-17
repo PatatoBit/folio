@@ -1,38 +1,27 @@
-<script lang="ts">
-	import { display_random_imgur_image } from '../lib/imgur';
-	import { onMount } from 'svelte';
-
-	let link: string;
-
-	onMount(async () => {
-		await display_random_imgur_image().then((result) => {
-			console.log(result);
-
-			link = result.the_link;
-		});
-	});
+<script>
+	import Computer from '../components/Computer.svelte';
 </script>
 
-<main class="section">
-	<div class="w-full h-full flex justify-center items-center">
+<main class="w-full h-screen flex flex-col items-center justify-center bg-slate-800">
+	<div class="max-w-5xl flex md:flex-row flex-col md:gap-16 gap-8">
 		<div>
-			<div class="mt-7 ml-[5.7rem] w-[11.8rem] h-[8.8rem] absolute ">
-				<img class="object-contain w-full h-full" src={link} alt="" />
-			</div>
-			<img class="" src="/computer.png" alt="Computer" />
+			<Computer />
 		</div>
-	</div>
-	<div class="w-full h-full flex flex-col justify-center items-center">
 		<div>
-			<h1 class="text-3xl font-bold head">Hi, I&apos;m Pat</h1>
-			<h2 class="content font-bold">I'm ...</h2>
-			<ul>
-				<li>14.123456 years old</li>
-				<li>from Thailand</li>
-				<li>a full-stack developer</li>
-				<li>a 3D modeler?</li>
-				<li>an absolute gamer</li>
-			</ul>
+			<div class="text-white flex flex-col h-full justify-center">
+				<div>
+					<h1 class="text-3xl font-bold head">Hi, I&apos;m Pat</h1>
+					<hr />
+					<h2 class="content font-bold text-xl">I'm ...</h2>
+					<ul class="content text-xl">
+						<li>- 14.123456 years old</li>
+						<li>- from Thailand</li>
+						<li>- a full-stack developer</li>
+						<li>- a 3D modeler?</li>
+						<li>- an absolute gamer</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 </main>

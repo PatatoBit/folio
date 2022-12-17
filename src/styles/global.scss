@@ -17,5 +17,5 @@ bodu {
 		rgba(31, 31, 31, 1) 50%,
 		rgba(29, 36, 41, 1) 100%
 	);
-	@apply w-full h-screen flex md:flex-row flex-col text-white -z-50;
+	@apply w-full h-screen flex flex-col text-white -z-50;
 }
