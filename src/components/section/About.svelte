@@ -32,10 +32,10 @@
 			<hr class="w-36" />
 
 			<div class="mt-2 flex gap-2 flex-wrap">
-				<ContactButton name="Twitter" url="https://twitter.com/patatotota" />
-				<ContactButton name="Github" url="https://github.com/pathonscript" />
-				<ContactButton name="Garden" url="https://garden.patato.live" />
-				<ContactButton name="Email" url="mailto:pathonscript@gmail.com" />
+				<ContactButton name="Twitter" url="https://twitter.com/patatotota" colorCode="#4EAAFF" />
+				<ContactButton name="Github" url="https://github.com/pathonscript" colorCode="#2C2C2C" />
+				<ContactButton name="Garden" url="https://garden.patato.live" colorCode="#00983D" />
+				<ContactButton name="Email" url="mailto:pathonscript@gmail.com" colorCode="#FF4848" />
 			</div>
 		</div>
 
