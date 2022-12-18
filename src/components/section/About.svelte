@@ -1,3 +1,7 @@
+<script lang="ts">
+	import ContactButton from './../ContactButton.svelte';
+</script>
+
 <section class="section">
 	<div class="container">
 		<div class="bio">
@@ -16,7 +20,11 @@
 		<div class="bio">
 			<h1 class="head ">Contacts</h1>
 			<hr />
-			<div />
+			<div>
+				<ContactButton name="Twitter" url="twitter.com/patatotota" />
+				<ContactButton name="Github" url="github.com/pathonscript" />
+				<ContactButton name="Garden" url="garden.patato.live" />
+			</div>
 		</div>
 	</div>
 </section>
