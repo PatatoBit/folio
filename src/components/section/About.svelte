@@ -3,10 +3,10 @@
 </script>
 
 <section class="section">
-	<div class="container">
+	<div class="grid md:grid-cols-2 grid-cols-1 grid-row-2 gap-4">
 		<div class="bio">
 			<h1 class="head ">Bio</h1>
-			<hr />
+			<hr class="w-12" />
 			<div class="mt-2">
 				<p class="content text-white">
 					<span class="text-nicered">2008 -</span> Born in Bangkok, Thailand
@@ -29,13 +29,19 @@
 
 		<div class="bio">
 			<h1 class="head ">Contacts</h1>
-			<hr />
-			<div class="mt-2 flex gap-2">
+			<hr class="w-36" />
+
+			<div class="mt-2 flex gap-2 flex-wrap">
 				<ContactButton name="Twitter" url="https://twitter.com/patatotota" />
 				<ContactButton name="Github" url="https://github.com/pathonscript" />
 				<ContactButton name="Garden" url="https://garden.patato.live" />
 				<ContactButton name="Email" url="mailto:pathonscript@gmail.com" />
 			</div>
+		</div>
+
+		<div class="mt-6 bio md:col-span-2">
+			<h1 class="head">About me</h1>
+			<hr class="w-36" />
 		</div>
 	</div>
 </section>
