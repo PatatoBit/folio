@@ -31,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"sass": "^1.56.2"
+		"sass": "^1.56.2",
+		"svelte-icons": "^2.1.0"
 	}
 }
