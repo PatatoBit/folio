@@ -10,7 +10,7 @@
 </script>
 
 <main class="section">
-	<div class="max-w-5xl flex md:flex-row flex-col md:gap-16 gap-8">
+	<div class="container">
 		<div>
 			<Computer />
 		</div>
@@ -20,7 +20,7 @@
 					<h1 class="text-3xl font-bold head">
 						👋 Hi, I&apos;m <span class="text-niceorange">Pat</span>
 					</h1>
-					<hr />
+					<hr class="border-niceyellow" />
 					<h2 class="content font-bold text-xl mt-3">I'm ...</h2>
 					<ul class="content text-xl">
 						<li>- <span class="text-nicered">{age}</span> years old</li>
