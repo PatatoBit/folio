@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-	@apply max-w-5xl flex md:flex-row flex-col md:gap-16 gap-8 items-center justify-center;
+	@apply max-w-5xl flex md:flex-row flex-col md:gap-16 gap-8 justify-center;
 }
 
 .bio {

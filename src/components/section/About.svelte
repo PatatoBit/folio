@@ -20,10 +20,11 @@
 		<div class="bio">
 			<h1 class="head ">Contacts</h1>
 			<hr />
-			<div>
-				<ContactButton name="Twitter" url="twitter.com/patatotota" />
-				<ContactButton name="Github" url="github.com/pathonscript" />
-				<ContactButton name="Garden" url="garden.patato.live" />
+			<div class="mt-2 flex gap-2">
+				<ContactButton name="Twitter" url="https://twitter.com/patatotota" />
+				<ContactButton name="Github" url="https://github.com/pathonscript" />
+				<ContactButton name="Garden" url="https://garden.patato.live" />
+				<ContactButton name="Email" url="mailto:pathonscript@gmail.com" />
 			</div>
 		</div>
 	</div>

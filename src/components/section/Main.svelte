@@ -10,7 +10,7 @@
 </script>
 
 <main class="section">
-	<div class="container">
+	<div class="container items-center">
 		<div>
 			<Computer />
 		</div>

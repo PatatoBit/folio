@@ -3,8 +3,8 @@
 	export let url: string;
 </script>
 
-<button>
-	<a href={'https://' + url} target="_blank" rel="noreferrer">
+<button class="px-4 py-2 border-2 border-white rounded-md content">
+	<a href={url} target="_blank" rel="noreferrer">
 		<h2 class="text-xl text-white">
 			{name}
 		</h2>
