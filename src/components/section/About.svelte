@@ -44,16 +44,15 @@
 			<hr class="w-36" />
 			<p class="mt-2 content text-white">
 				I started my coding journey by writing my first line of code in <code>C#</code>. I was
-				trying out game development as I was inspired by
+				trying out game development, being inspired by
 				<a
 					class="font-bold underline text-niceblue"
 					href="https://www.youtube.com/@Danidev"
 					target="_blank"
 					rel="noreferrer">Dani</a
-				>
-				. Eventually, I got bored and quit. But the urge of wanting to code still exists so I tried out
-				many different fields like Machine Learning, App development, etc. Currently, I've landed on
-				web development and I've been enjoying it so far.
+				>. Eventually, I got bored and quit. But the urge of wanting to code still exists so I tried
+				out many different fields like Machine Learning, App development, etc. Currently, I've
+				landed on web development and I've been enjoying it so far.
 			</p>
 		</div>
 	</div>

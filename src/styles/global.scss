@@ -9,6 +9,10 @@ body {
 	box-sizing: border-box;
 }
 
+code {
+	font-family: monospace;
+}
+
 .section {
 	@apply w-full min-h-screen flex flex-col items-center justify-center;
 }

@@ -18,10 +18,11 @@
 		{#if link}
 			<img class="object-contain w-full h-full" src={link} alt="" />
 		{:else}
-			<h1 class="text-green-800 head">Loading...</h1>
-			<h1 class="text-green-800 head">
+			<code class="text-green-800">Loading...</code>
+			<br />
+			<code class="text-green-800">
 				THESE ARE RANDOM IMAGES FROM THE INTERNET, NOT MINE. I'M SORRY IF IT'S PORN.
-			</h1>
+			</code>
 		{/if}
 	</div>
 	<img class="" src="/computer.png" alt="Computer" />
