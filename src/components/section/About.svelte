@@ -42,6 +42,12 @@
 		<div class="mt-6 bio md:col-span-2">
 			<h1 class="head">About me</h1>
 			<hr class="w-36" />
+			<p class="mt-2 content text-white">
+				I started my coding journey by writing my first line of code in C#. I was trying out game
+				development as I was inspired by Dani. Eventually, I got bored and quit. But the urge of
+				wanting to code still exists so I tried out many different fields like Machine Learning, App
+				development, etc. But now I landed in Web development and I've been enjoying it so far.
+			</p>
 		</div>
 	</div>
 </section>

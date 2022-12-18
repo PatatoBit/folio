@@ -30,7 +30,7 @@ body {
 }
 
 .bio {
-	@apply flex flex-col w-full md:p-0 p-4;
+	@apply flex flex-col w-full md:p-0 p-4 max-w-4xl;
 
 	h1 {
 		@apply text-3xl text-niceorange font-bold;
