@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Computer from './Computer.svelte';
+	import Computer from '../Computer.svelte';
 
 	let age: string = ' ';
 	setInterval(() => {

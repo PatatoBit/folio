@@ -10,6 +10,10 @@ bodu {
 }
 
 .section {
+	@apply w-full min-h-screen flex flex-col items-center justify-center;
+}
+
+.background {
 	background: rgb(31, 31, 31);
 	background: linear-gradient(
 		180deg,
@@ -18,5 +22,5 @@ bodu {
 		rgb(35, 43, 54) 100%
 	);
 
-	@apply fixed w-full min-h-screen flex flex-col items-center justify-center bg-slate-800;
+	@apply fixed -z-10 w-full min-h-screen top-0 left-0;
 }

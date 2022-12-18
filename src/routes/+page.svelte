@@ -1,5 +1,7 @@
 <script lang="ts">
-	import Main from '../components/Main.svelte';
+	import Background from '../components/Background.svelte';
+	import About from '../components/section/About.svelte';
+	import Main from '../components/section/Main.svelte';
 </script>
 
 <svelte:head>
@@ -24,3 +26,5 @@
 </svelte:head>
 
 <Main />
+<About />
+<Background />
