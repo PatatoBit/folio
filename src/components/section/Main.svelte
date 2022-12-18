@@ -18,9 +18,9 @@
 			<div class="text-white flex flex-col h-full justify-center md:p-0 px-8 ">
 				<div>
 					<h1 class="text-3xl font-bold head">
-						👋 Hi, I&apos;m <span class="text-niceorange">Pat</span>
+						Hi, I&apos;m <span class="text-niceorange">Pat</span>
 					</h1>
-					<hr class="border-niceyellow" />
+					<hr class="border-niceyellow w-36" />
 					<h2 class="content font-bold text-xl mt-3">I'm ...</h2>
 					<ul class="content text-xl">
 						<li>- <span class="text-nicered">{age}</span> years old</li>
