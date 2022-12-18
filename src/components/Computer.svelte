@@ -21,7 +21,8 @@
 			<code class="text-green-800">Loading...</code>
 			<br />
 			<code class="text-green-800">
-				THESE ARE RANDOM IMAGES FROM THE INTERNET, NOT MINE. I'M SORRY IF IT'S PORN.
+				THIS DISPLAY A RANDOMIZE IMAGE FROM THE INTERNET, FOR ENTERTAINMENT PURPOSES. I'M SORRY IF
+				IT'S PORN.
 			</code>
 		{/if}
 	</div>
